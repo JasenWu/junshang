@@ -1,0 +1,97 @@
+html,
+    body,
+    .page {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .page {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .page .header {
+      background-color: #21a97b;
+      padding: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .page .header a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .page .header .icon {
+      font-size: 26px;
+    }
+
+    .page  .header .left .logo {
+      width: 100px;
+      vertical-align: top;
+      margin-right: 80px;
+      margin-top: 1px;
+    }
+    .page  .main {
+      background-color: #e8f1ee;
+      flex: 1;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: stretch;
+    }
+    .page  .main .left {
+      width: 200px;
+    }
+    .page  .hide {
+      display: none;
+    }
+    .page  .main .right {
+      flex: 1;
+      background: #fff;
+      padding: 10px;
+    }
+
+    .page  .main .i-list-group {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      background: #fff;
+      border: 1px solid rgba(0, 0, 0, 0.125);
+      border-top: 0;
+    }
+    .page .main .i-list-group .i-list-group-item .title {
+      border-top: 1px solid rgba(0, 0, 0, 0.125);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+      padding: 12px 20px;
+      color: rgb(33, 37, 41);
+      font-size: 16px;
+      font-weight: normal;
+      margin: 0;
+    }
+    .page .second-level{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      padding-left: 13px;
+    }
+    
+    .page .second-level li a {
+      padding: 8px;
+      display: block;
+      color: gray;
+      text-decoration: none;
+    }
+
+    .page .second-level li a:hover {
+      color: #21a97b;
+    }
+    .page .right img {
+      display: block;
+      margin: 0 auto;
+      width: 400px;
+      margin-top: 100px;
+    }
