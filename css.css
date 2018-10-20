@@ -1,0 +1,82 @@
+.layout{
+    position: fixed;
+    left:50%;
+    top:50%;
+}
+.layout .main{
+    margin-top:-100px;
+    margin-left:-140px; 
+}
+
+/* page 2 */
+
+.page2 .title{
+    font-weight: normal;
+}
+.page2 .list-wrap {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.page2 .list-wrap li {
+    width: 100%;
+    box-shadow: 1px 1px 1px gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 25px;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.page2 .list-wrap li label {
+    font-weight: normal;
+}
+.page2 .total {
+    font-size: 22px;
+}
+.page2 .select{
+    width: 50px;
+    float: right;
+}
+.page2 .bottom-form{
+    padding-top:50px; 
+    clear: both;
+}
+.page2 .user-name{
+    background: #ccc;
+    padding: 10px;
+    border-radius:15px; 
+    width: 150px;
+    text-align: center;
+    margin: 30px auto;  
+    position: relative;
+ 
+}
+
+.page2 .user-name .icon-j{
+    position: absolute;
+    left:-10px;
+    top:-5px;
+    width: 50px;
+    height: 50px;
+    border-radius:25px;
+    display: block;
+    background: #337ab7;
+    color:white;
+    font-size: 32px;
+
+}
+.page2 .user-name .glyphicon{
+    position: absolute;
+    right:-8px;
+    top:-8px;
+    font-size: 12px;
+    transform: scale(0.8);
+    background: gray;
+    padding: 5px;
+    border-radius:25px;
+    color: white;
+    cursor: pointer;
+}
